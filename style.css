@@ -46,32 +46,37 @@
  .toggleBtn{
     display: flex;
  }
+ .navbar .nav-links{
+    width: 100%;
+ }
  .navbar .nav-links ul{
-   display: none;
+   /* display: none; */
    flex-direction: column;
-   margin-top: 10px;
+   margin-top: 20px;
    width: 100%;
+   gap: 20px;
+   transition: all 0.25s ease-in-out;
 }
 .navbar .nav-links ul.active{
     display: none;
 }
 .navbar .nav-links ul li{
     width: 100%;
+    line-height: 40px;
     /* display: block; */
 }
 .navbar .nav-links ul li a{
     width: 100%;
     /* display: block; */
 }
-.navbar .nav-links ul li a:hover{
+.navbar .nav-links ul li:hover{
     background-color: #23387d;
+    /* background-color: #fff; */
 }
 
 .navbar{
     flex-direction: column;
     align-items: flex-start;
 }
-.logo{
-    pos
-}
+
 }
